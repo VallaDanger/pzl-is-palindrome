@@ -4,6 +4,8 @@ class Utils {
 	
 	private static int a = Character.getNumericValue('a');
 	
+	private Utils(){}
+	
 	static String clean(final String s) {
 		
 		final int sizeOfString = s.length();
